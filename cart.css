@@ -1,0 +1,144 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  background-color: #faf7f2;
+  margin: 40px;
+}
+.cart-heading {
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+}
+.table-heading {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid rgb(139, 139, 139);
+  padding-bottom: 20px;
+}
+.cart-subhead {
+  font-size: 11px;
+  color: #6a6a6a;
+  font-weight: 600;
+}
+.line {
+  display: flex;
+  justify-content: center;
+  /* width: 60%; */
+  align-items: center;
+  padding: 0 2% 0 2%;
+}
+.cart-item {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.cart-item-last {
+  border-bottom: 1px solid #6a6a6a;
+}
+
+.item-image {
+  max-width: 10%;
+  flex-basis: 10%;
+}
+.display-image {
+  display: block;
+  width: 100%;
+  padding: 2% 0;
+}
+.item-desc {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+.quant-list-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 30%;
+}
+.quantity-select {
+  max-width: 50%;
+}
+.item-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 10%;
+}
+.total {
+  display: flex;
+  justify-content: flex-end;
+  margin: 5%;
+  padding-right: 7%;
+}
+.item-text {
+  margin-top: 0.45em;
+  color: #6a6a6a;
+}
+.checkout-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.checkout-details > * {
+  width: 20%;
+  margin: 10px;
+}
+@media only screen and (max-width: 768px) {
+  .item-price {
+    font-size: 10px;
+    flex-basis: 5%;
+  }
+  .cart {
+    margin: 10px;
+  }
+  .item-name,
+  .item-text {
+    font-size: 10px;
+  }
+  .total {
+    font-size: 12px;
+  }
+  .cart-item {
+    margin-bottom: 20px;
+  }
+
+  .checkout-details {
+    align-items: center;
+  }
+  .checkout-details > * {
+    width: 90%;
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .item-price {
+    font-size: 10px;
+    flex-basis: 5%;
+  }
+  .cart {
+    margin: 10px;
+  }
+  .item-name,
+  .item-text {
+    font-size: 10px;
+  }
+  .total {
+    font-size: 12px;
+  }
+  .cart-item {
+    margin-bottom: 20px;
+  }
+  .checkout-details {
+    align-items: center;
+  }
+  .checkout-details > * {
+    width: 90%;
+    margin: 10px;
+  }
+}

@@ -1,0 +1,92 @@
+.footer-wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.items {
+  flex-basis: 33.33333%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.footer-name {
+  font-family: "Nunito Sans", sans-serif;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  color: #6a6a6a;
+  line-height: 2;
+  padding-bottom: 3%;
+}
+
+.footer-heading {
+  color: #ad5c1c;
+  font-family: "Nunito Sans", sans-serif;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  /* color: #6a6a6a; */
+  line-height: 1.65;
+  padding-bottom: 3%;
+}
+
+.icon {
+  max-width: 18px;
+  margin-right: 10px;
+}
+.icon-facebook {
+  max-width: 12px;
+}
+.icons {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 20px;
+}
+.svg-icon {
+  width: 100%;
+}
+
+.Form__Input,
+.Form__Input:focus {
+  display: block;
+  padding: 12px 14px;
+  width: 100%;
+  resize: none;
+  display: block;
+  letter-spacing: normal;
+  background: transparent;
+  border: 1px solid #ad5c1c;
+  border-radius: 0;
+  -webkit-transition: border-color 0.1s ease-in-out;
+  transition: border-color 0.1s ease-in-out;
+  outline-style: hidden;
+}
+
+.Form__Input:focus {
+  border: 1px solid black;
+}
+
+@media only screen and (max-width: 768px) {
+  .items {
+    flex-basis: 50%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+ .items {
+   flex-basis: 100%;
+ }
+}

@@ -1,0 +1,19 @@
+.Form__Input,
+.Form__Input:focus {
+  display: block;
+  padding: 12px 14px;
+  width: 100%;
+  resize: none;
+  display: block;
+  letter-spacing: normal;
+  background: transparent;
+  border: 1px solid #ad5c1c;
+  border-radius: 0;
+  -webkit-transition: border-color 0.1s ease-in-out;
+  transition: border-color 0.1s ease-in-out;
+  outline-style: hidden;
+}
+
+.Form__Input:focus {
+  border: 1px solid black;
+}
