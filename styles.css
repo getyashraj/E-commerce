@@ -27,8 +27,9 @@ body {
 .visit {
   display: flex;
   justify-content: space-around;
-  padding: 10%;
+  padding: 2%;
   flex-wrap: wrap;
+  margin: 0 10%;
 }
 .visitimage {
   max-width: 70%;
@@ -53,9 +54,11 @@ body {
   flex-wrap: wrap;
   flex: 1 1 auto;
   justify-content: space-around;
+  background-color: white;
 }
 .image_shop {
   max-width: 100%;
+  display: block;
 }
 .Button {
   padding: 14px 28px;
@@ -118,4 +121,19 @@ input {
   text-align: start;
   margin: 0em;
   border-width: 1px;
+}
+@media only screen and (max-width: 768px) {
+  .category {
+    width: 100%;
+  }
+  .visit-content {
+    flex-basis: 70%;
+    height: 50%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .category {
+    width: 100%;
+  }
 }

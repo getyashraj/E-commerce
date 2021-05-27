@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="navbar.css" />
     <link rel="stylesheet" href="footer.css" />
     <link rel="stylesheet" href="cart.css" />
+    <link rel="stylesheet" href="checkout.css" />
     <title>Document</title>
   </head>
   <body>
@@ -24,7 +25,75 @@
         <a class="navitem" href="cart.html">CART (2)</a>
       </div>
     </div>
-    <div></div>
+    <div class="checkout-page">
+      <div class="checkout-form">
+        <div class="info">
+          <div class="header contactinfo-header">Contact Information</div>
+          <div class="email-input">
+            <input type="email" placeholder="Email" class="Form__Input" />
+          </div>
+          <div class="header shippinginfo-header">Shipping address</div>
+          <div class="shippinginfo-form">
+            <form>
+              <input
+                type="text"
+                class="checkout-input Form__Input"
+                name="first_name"
+                placeholder="Name"
+              />
+              <input
+                type="text"
+                class="checkout-input Form__Input"
+                name="address"
+                placeholder="Address"
+              />
+              <input
+                type="text"
+                class="checkout-input Form__Input"
+                name="apartment"
+                placeholder="Apartment, suite, etc. (optional)"
+              />
+              <input
+                type="text"
+                class="checkout-input Form__Input"
+                name="city"
+                placeholder="City"
+              />
+              <input
+                type="text"
+                class="checkout-input Form__Input"
+                name="country"
+                placeholder="Country"
+              />
+              <input
+                type="text"
+                class="checkout-input Form__Input"
+                name="state"
+                placeholder="State"
+              />
+              <input
+                type="text"
+                class="checkout-input Form__Input"
+                name="pincode"
+                placeholder="Postal Code"
+              />
+              <input
+                type="text"
+                class="checkout-input Form__Input"
+                name="phone"
+                placeholder="Phone"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="checkout-data">
+        <div class="checkout-total">Total amount to be paid: $84</div>
+        <div class="checkout-button">
+          <button class="Button">PROCEED TO PAYMENT</button>
+        </div>
+      </div>
+    </div>
     <div class="footer-wrap">
       <div class="links">
         <div class="items">
